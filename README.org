@@ -1,0 +1,17 @@
+* BOLD - Binary Online Learned Descriptor
+
+
+Sample implementation of the method described in
+
+#+begin_src 
+@InProceedings{Balntas_2015_CVPR,
+author = {Balntas, Vassileios and Tang, Lilian and Mikolajczyk, Krystian},
+title = {BOLD - Binary Online Learned Descriptor For Efficient Image Matching},
+journal = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2015}
+}
+#+end_src
+
+You can get the paper from: [[http://vbalnt.io/wp-content/uploads/2015/06/Balntas_BOLD_-_Binary_2015_CVPR_paper.pdf][CVPR 2015 Paper]]
+
