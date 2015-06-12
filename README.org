@@ -31,3 +31,7 @@ make
 #+end_src
 
 and run =./bold= to run a simple patches experiment from the [[http://www.cs.ubc.ca/~mbrown/patchdata/patchdata.html][Learning Local Image Descriptors Dataset]]
+
+** Note
+
+Currently the BOLD code works with =32x32= patches. In order to generalize it, convert the indexes of the patch tests in the =bold.descr= file.
