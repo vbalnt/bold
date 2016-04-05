@@ -14,13 +14,11 @@ year = {2015}
 }
 #+end_src
 
-You can get the paper from: [[http://vbalnt.io/wp-content/uploads/2015/06/Balntas_BOLD_-_Binary_2015_CVPR_paper.pdf][CVPR 2015 Paper]]
-
-
+You can get the paper from: [[http://www.iis.ee.ic.ac.uk/~vb2415/bold/BOLD-Binary-Online-Learned-Descriptor.pdf][http://www.iis.ee.ic.ac.uk/~vb2415/bold/BOLD-Binary-Online-Learned-Descriptor.pdf]]
 
 ** Compilation 
 
-In order to run the example described in =main.cpp= you need to download the sample dataset file from [[http://vbalnt.io/dataset.tar.gz][here]]
+In order to run the example described in =main.cpp= you need to download the sample dataset file from [[http://www.iis.ee.ic.ac.uk/~vb2415/bold/dataset-ubc-bold.tar.gz][http://www.iis.ee.ic.ac.uk/~vb2415/bold/dataset-ubc-bold.tar.gz]]
 and put it in the same folder as the code
 
 then run 
@@ -30,8 +28,28 @@ cmake .
 make
 #+end_src
 
-and run =./bold= to run a simple patches experiment from the [[http://www.cs.ubc.ca/~mbrown/patchdata/patchdata.html][Learning Local Image Descriptors Dataset]]
+and run =./bold= to run a simple patches experiment on the =notredame=
+dataset from from the
+[[http://www.cs.ubc.ca/~mbrown/patchdata/patchdata.html][UBC Patches Dataset]]
+
+The program will run print a series of results for the patch pairs
+from the dataset above eg.
+
+#+begin_src bash
+0 227 69
+1 125 31
+1 237 77
+.
+.
+.
+1 147 39
+0 292 136
+1 125 26
+#+end_src
+The first column contains the patch pair label (0 negative, 1
+positive), the second row contains the unmasked distance between the
+two patches of the pair, and the third the masked distance using the
+methodology described in our paper. 
 
 ** Note
-
 Currently the BOLD code works with =32x32= patches. In order to generalize it, convert the indexes of the patch tests in the =bold.descr= file.
