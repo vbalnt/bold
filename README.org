@@ -2,6 +2,8 @@
 
 ** Introduction
 
+[[./img/poster.png]]
+
 Sample implementation of the method described in
 
 #+begin_src 
@@ -14,7 +16,7 @@ year = {2015}
 }
 #+end_src
 
-You can get the paper from: [[http://www.iis.ee.ic.ac.uk/~vb2415/bold/BOLD-Binary-Online-Learned-Descriptor.pdf][http://www.iis.ee.ic.ac.uk/~vb2415/bold/BOLD-Binary-Online-Learned-Descriptor.pdf]]
+Download the paper from [[http://www.iis.ee.ic.ac.uk/~vb2415/bold/BOLD-Binary-Online-Learned-Descriptor.pdf][http://www.iis.ee.ic.ac.uk/~vb2415/bold/BOLD-Binary-Online-Learned-Descriptor.pdf]]
 
 ** Compilation 
 
