@@ -1,8 +1,8 @@
 * BOLD - Binary Online Learned Descriptor
 
-** Introduction
-
 [[./imgs/poster.png]]
+
+** Introduction
 
 Sample implementation of the method described in
 
@@ -58,14 +58,15 @@ Notice that the new masked distance in the case of positive patches is
 negative patches. This confirms the findings that the masked distance
 is more discriminative.
 
-** Note
-Currently the BOLD code works with =32x32= patches. In order to
-generalize it, convert the indexes of the patch tests in the
-=bold.descr= file. 
-
 ** Contributor needed!
 Recent work (PAMI under submission), shows that we can extend the
 above masking framework to all the other binary descriptors (BRIEF,
 BRISK, FREAK). If someone is willing to expand the masking framework
 to the OpenCV class of binary descriptors, send me an
 [[mailto:v.balntas15@ic.ac.uk][email]] and I can help out. 
+
+
+** Note
+Currently the BOLD code works with =32x32= patches. In order to
+generalize it, convert the indexes of the patch tests in the
+=bold.descr= file. 
