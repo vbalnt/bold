@@ -20,11 +20,10 @@ Download the paper from [[http://www.iis.ee.ic.ac.uk/~vb2415/bold/BOLD-Binary-On
 
 ** Compilation 
 
-In order to run the example described in =main.cpp= you need to download the sample dataset file from [[http://www.iis.ee.ic.ac.uk/~vb2415/bold/dataset-ubc-bold.tar.gz][http://www.iis.ee.ic.ac.uk/~vb2415/bold/dataset-ubc-bold.tar.gz]]
-and put it in the same folder as the code
+In order to run the example described in =main.cpp= you need to download the sample datasets from [[http://www.iis.ee.ic.ac.uk/~vb2415/bold/dataset-ubc-bold.tar.gz][http://www.iis.ee.ic.ac.uk/~vb2415/bold/dataset-ubc-bold.tar.gz]]
+and extract the file inside the main git folder.
 
-then run 
-
+To compile the code type 
 #+begin_src shell
 cmake .
 make
@@ -34,11 +33,11 @@ and run =./bold= to run a simple patches experiment on the =notredame=
 dataset from from the
 [[http://www.cs.ubc.ca/~mbrown/patchdata/patchdata.html][UBC Patches Dataset]]
 
-The program will run print a series of results for the patch pairs
+The program will run print a series of evaluation results for the patch pairs
 from the dataset above eg.
 
 #+begin_src bash
-0 227 69
+0 296 136
 1 125 31
 1 237 77
 .
@@ -48,10 +47,25 @@ from the dataset above eg.
 0 292 136
 1 125 26
 #+end_src
+
 The first column contains the patch pair label (0 negative, 1
 positive), the second row contains the unmasked distance between the
 two patches of the pair, and the third the masked distance using the
 methodology described in our paper. 
 
+Notice that the new masked distance in the case of positive patches is
+(in terms of ratio) much smaller than the original compared to the
+negative patches. This confirms the findings that the masked distance
+is more discriminative.
+
 ** Note
-Currently the BOLD code works with =32x32= patches. In order to generalize it, convert the indexes of the patch tests in the =bold.descr= file.
+Currently the BOLD code works with =32x32= patches. In order to
+generalize it, convert the indexes of the patch tests in the
+=bold.descr= file. 
+
+** Contributor needed!
+Recent work (PAMI under submission), shows that we can extend the
+above masking framework to all the other binary descriptors (BRIEF,
+BRISK, FREAK). If someone is willing to expand the masking framework
+to the OpenCV class of binary descriptors, send me an
+[[mailto:v.balntas15@ic.ac.uk][email]] and I can help out. 
