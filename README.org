@@ -2,7 +2,7 @@
 
 ** Introduction
 
-[[./img/poster.png]]
+[[./imgs/poster.png]]
 
 Sample implementation of the method described in
 
