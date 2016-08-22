@@ -16,11 +16,11 @@ year = {2015}
 }
 #+end_src
 
-Download the paper from [[http://www.iis.ee.ic.ac.uk/~vb2415/bold/BOLD-Binary-Online-Learned-Descriptor.pdf][http://www.iis.ee.ic.ac.uk/~vb2415/bold/BOLD-Binary-Online-Learned-Descriptor.pdf]]
+Download the paper from [[http://www.iis.ee.ic.ac.uk/~vbalnt/bold/BOLD-Binary-Online-Learned-Descriptor.pdf][http://www.iis.ee.ic.ac.uk/~vbalnt/bold/BOLD-Binary-Online-Learned-Descriptor.pdf]]
 
 ** Compilation 
 
-In order to run the example described in =main.cpp= you need to download the sample datasets from [[http://www.iis.ee.ic.ac.uk/~vb2415/bold/dataset-ubc-bold.tar.gz][http://www.iis.ee.ic.ac.uk/~vb2415/bold/dataset-ubc-bold.tar.gz]]
+In order to run the example described in =main.cpp= you need to download the sample datasets from [[http://www.iis.ee.ic.ac.uk/~vbalnt/bold/dataset-ubc-bold.tar.gz][http://www.iis.ee.ic.ac.uk/~vb2415/bold/dataset-ubc-bold.tar.gz]]
 and extract the file inside the main git folder.
 
 To compile the code type 
@@ -57,13 +57,6 @@ Notice that the new masked distance in the case of positive patches is
 (in terms of ratio) much smaller than the original compared to the
 negative patches. This confirms the findings that the masked distance
 is more discriminative.
-
-** Contributor needed!
-Recent work (PAMI under submission), shows that we can extend the
-above masking framework to all the other binary descriptors (BRIEF,
-BRISK, FREAK). If someone is willing to expand the masking framework
-to the OpenCV class of binary descriptors, send me an
-[[mailto:v.balntas15@ic.ac.uk][email]] and I can help out. 
 
 
 ** Note
