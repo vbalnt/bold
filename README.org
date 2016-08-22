@@ -20,7 +20,7 @@ Download the paper from [[http://www.iis.ee.ic.ac.uk/~vbalnt/bold/BOLD-Binary-On
 
 ** Compilation 
 
-In order to run the example described in =main.cpp= you need to download the sample datasets from [[http://www.iis.ee.ic.ac.uk/~vbalnt/bold/dataset-ubc-bold.tar.gz][http://www.iis.ee.ic.ac.uk/~vb2415/bold/dataset-ubc-bold.tar.gz]]
+In order to run the example described in =main.cpp= you need to download the sample datasets from [[http://www.iis.ee.ic.ac.uk/~vbalnt/bold/dataset-ubc-bold.tar.gz][http://www.iis.ee.ic.ac.uk/~vbalnt/bold/dataset-ubc-bold.tar.gz]]
 and extract the file inside the main git folder.
 
 To compile the code type 
