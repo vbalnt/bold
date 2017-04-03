@@ -18,6 +18,11 @@ year = {2015}
 
 Download the paper from [[http://www.iis.ee.ic.ac.uk/~vbalnt/bold/BOLD-Binary-Online-Learned-Descriptor.pdf][http://www.iis.ee.ic.ac.uk/~vbalnt/bold/BOLD-Binary-Online-Learned-Descriptor.pdf]]
 
+#+BEGIN_QUOTE
+Steffen Urban has an alternative [[https://github.com/urbste/mdBRIEF][implementation]] of BOLD, with more =openCV= friendly test definitions. 
+
+#+END_QUOTE
+
 ** Compilation 
 
 In order to run the example described in =main.cpp= you need to download the sample datasets from [[http://www.iis.ee.ic.ac.uk/~vbalnt/bold/dataset-ubc-bold.tar.gz][http://www.iis.ee.ic.ac.uk/~vbalnt/bold/dataset-ubc-bold.tar.gz]]
